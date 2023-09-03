@@ -16,7 +16,27 @@ The primary goal of this repository is to enhance the usability and reliability 
 
 ## How to Use
 
-To use the Python3 version of the CMS Made Simple SQL Injection exploit script, simply clone this repository or download the script from the releases section. Follow the provided documentation for instructions on running the script effectively and responsibly.
+To use the Python3 version of the CMS Made Simple SQL Injection exploit script, follow these steps:
+
+1. Clone this repository using the following command:
+
+    ```bash
+    git clone https://github.com/cyberchiranjit/CMSMadeSimplePython3.git
+    ```
+
+2. Navigate to the cloned repository:
+
+    ```bash
+    cd CMSMadeSimplePython3
+    ```
+
+3. Run the exploit script by providing the target IP address using the `-u` flag:
+
+    ```bash
+    python exploitCVE-2019-9053.py -u target_ip
+    ```
+
+Make sure to replace `target_ip` with the actual IP address of the CMS Made Simple installation you want to test. Ensure that you have the necessary permissions and authorization to conduct security testing.
 
 ## Contributions
 
